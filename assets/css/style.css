@@ -2,6 +2,7 @@
     --lightblue: #92CCCD;
     --darkblue: #445876;
     --grey: #31343D;
+    --lightgrey: #6D7280;
 }
 
 * {
@@ -47,17 +48,16 @@ nav a {
     border-bottom: 5px solid var(--lightblue);
 }
 
-.image {
-    position: relative;
-    text-align: center;
-    color: white;
+.hero {
+    background-image: url("../images/flat-lay-cup-black-coffee-260nw-1283360350.jpg");
+    background-color: #EDEDF6;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.image img {
-    width: 100%;
-}
-
-.subtitle {
+.subtitle h3 {
     position: absolute;
     top: 250px;
     left: 200px;
@@ -66,7 +66,7 @@ nav a {
     color: var(--grey);
     font-size: 200%;
     font-weight: bold;
-}
+} 
 
 .heading {
     display: flex;
@@ -84,15 +84,81 @@ nav a {
     width: 15%;
 }
 
+p {
+    color: var(--lightgrey);;
+}
+
  .aboutContent {
     display: flex;
     position: relative;
     padding-left: 40px;
-    color: #6D7280;
     margin-left: 380px;
     margin-right: 75px;
     bottom: 210px;
     border-left: 5px solid var(--darkblue);
+}
+
+.first {
+    background-image: url("../images/gradienta-gwE9vXSi7Xw-unsplash.jpg");
+    background-repeat: no-repeat;
+    height: 667px;
+    width: 1000px;
+    background-color: #EDEDF6;
+    border: 5px solid var(--lightblue);
+    position: absolute;
+    top: 700px;
+    left: 800px;
+}
+
+.second {
+    background-image: url("../images/corinne-kutz-tMI2_-r5Nfo-unsplash.jpg");
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    background-color: #EDEDF6;
+    border: 5px solid var(--lightblue);
+}
+
+.third {
+    background-image: url("../images/clemence-taillez-GHW0uAql5WQ-unsplash.jpg");
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    background-color: #EDEDF6;
+    border: 5px solid var(--lightblue);
+}
+
+.fourth {
+    background-image: url("../images/mitchell-luo-oLw9R4GxGug-unsplash.jpg");
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    background-color: #EDEDF6;
+    border: 5px solid var(--lightblue);
+}
+
+.fifth {
+    background-image: url("../images/phil-botha-6SiixipeG-c-unsplash.jpg");
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    background-color: #EDEDF6;
+    border: 5px solid var(--lightblue);
+}
+
+/*.workContent {
+    background-image: url("../images/aron-visuals-weotZsrx3_Q-unsplash.jpg"), url("../images/clemence-taillez-GHW0uAql5WQ-unsplash.jpg"), url("../images/gradienta-gwE9vXSi7Xw-unsplash.jpg"), url("../images/jason-leung-7M38AnOGo_4-unsplash.jpg"), url("../images/lydia-kasianna-eL-xDSP8tgc-unsplash.jpg");
+    background-repeat: no-repeat, no-repeat;
+    height: 300px;
+    width: 300px;
+    background-color: #EDEDF6;
+    border: 5px solid var(--lightblue);
+}
+
+.workContent {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .workContent img {
@@ -100,6 +166,18 @@ nav a {
     width: 300px;
     bottom: 150px;
     border: 5px solid var(--lightblue)
+}*/
+
+.workSub {
+    position: absolute;
+    background-color: var(--lightblue);
+    padding: 20px;
+}
+
+.workSub h3 {
+    font-size: 150%;
+    font-weight: bold;
+    color: var(--grey);
 }
 
  /*.contactContent ul {
