@@ -17,6 +17,8 @@ body {
     background-color: #EDEDF6;
 }
 
+/*nav bar*/
+
 nav {
     background-color: var(--grey);
     display: flex;
@@ -48,69 +50,84 @@ nav a {
     border-bottom: 5px solid var(--lightpurp);
 }
 
+/*Main image*/
+
 .hero {
     background-image: url("../images/flat-lay-cup-black-coffee-260nw-1283360350.jpg");
     background-color: #EDEDF6;
-    height: 400px;
+    height: 40vh;
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
+    position: relative;
 }
 
 .subtitle h3 {
-    position: absolute;
-    top: 250px;
-    left: 150px;
     background-color: var(--lightpurp);
     padding: 20px;
     color: var(--grey);
     font-size: 200%;
     font-weight: bold;
+    display: inline-block;
+    margin: 20vh
 } 
 
-.heading {
+/*Main flexbox*/
+
+.flexbox {
+    display: flex;
+}
+
+/*About Me, Work, and Contact flexbox and details*/
+
+.flexHead {
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
+    width: 20%;
 }
 
 .heading h2 {
     color: var(--darkpurp);
     font-size: 300%;
-    padding: 10px 20px 10px 10px;
-    align-self: flex-start;
-    margin-left: 100px;
-    margin-top: 50px;
+    margin: 40px 0 20px 100px;
+    padding-right: 20px;
     border-right: 5px solid var(--darkpurp);
-    width: 15%;
 }
 
-#about {
-    padding-bottom: 100px;
+/*Content flexbox*/
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-left: -5px;
+    justify-content: space-between;
 }
+
+/*About me*/
 
 p {
     color: var(--lightgrey);;
 }
 
  .aboutContent {
+    margin: 40px 75px 30px 0;
+    padding-top: 10px;
     padding-left: 40px;
-    margin-left: 380px;
-    margin-right: 75px;
     border-left: 5px solid var(--darkpurp);
-    position: absolute;
-    bottom: 290px;
+    width: 95%;
 }
 
-#work {
-    margin-bottom: 1150px;
-}
+/*Work*/
 
 .workContent {
+    display: flex;
+    flex-wrap: wrap;
     border-left: 5px solid var(--darkpurp);
-    height: 1300px;
-    position: absolute;
-    top: 700px;
-    left: 380px;
+    padding-top: 10px;
+    justify-content: space-between;
+    height: 140vh;
+    margin-right: 75px;
 }
 
 .first {
@@ -120,8 +137,7 @@ p {
     width: 1000px;
     background-color: #EDEDF6;
     border: 5px solid var(--lightpurp);
-    position: absolute;
-    left: 100px;
+    margin-left: 250px;
 }
 
 .second {
@@ -131,9 +147,9 @@ p {
     width: 450px;
     background-color: #EDEDF6;
     border: 5px solid var(--lightpurp);
-    position: absolute;
-    top: 650px;
-    left: 100px;
+    align-self: flex-end;
+    margin-left: 250px;
+    margin-bottom: 20px;
 
 }
 
@@ -144,9 +160,9 @@ p {
     width: 450px;
     background-color: #EDEDF6;
     border: 5px solid var(--lightpurp);
-    position: absolute;
-    top: 650px;
-    left: 650px;
+    align-self: flex-end;
+    margin-right: 250px;
+    margin-bottom: 20px;
 }
 
 .fourth {
@@ -156,9 +172,8 @@ p {
     width: 450px;
     background-color: #EDEDF6;
     border: 5px solid var(--lightpurp);
-    position: absolute;
-    top: 1000px;
-    left: 650px;
+    align-self: flex-end;
+    margin-left: 250px;
 }
 
 .fifth {
@@ -168,9 +183,8 @@ p {
     width: 450px;
     background-color: #EDEDF6;
     border: 5px solid var(--lightpurp);
-    position: absolute;
-    top: 1000px;
-    left: 100px;
+    align-self: flex-end;
+    margin-right: 250px;
 }
 
 .first:hover,
@@ -182,36 +196,44 @@ p {
     transition: 0.5s;
 }
 
-.workSub {
-    position: absolute;
+.workSub, .workSubBig {
     background-color: var(--lightpurp);
     padding: 20px;
-    bottom: 30px;
+    display: inline-block;
+    margin-top: 180px;
 }
 
-.workSub h3 {
+.workSubBig {
+    margin-top: 450px;
+}
+
+.workSub h3, .workSubBig h3 {
     font-size: 150%;
     font-weight: bold;
     color: var(--grey);
 }
 
+/*Contact Me*/
+
+#contact {
+    margin-top: 140vh;
+}
+
  .contactContent ul {
     list-style: none;
     display: flex;
-    position: relative;
     font-size: 125%;
-    margin: 5px 75px 10px 0;
     border-left: 5px solid var(--darkpurp);
-    margin-left: 380px;
-    margin-right: 75px;
-    bottom: 120px;
+    padding-left: 150px;
+    width: 95%;
+    margin-bottom: 70px;
+
 }
 
 .contactContent a {
     display: block;
     padding: 8px;
-    margin: 5px;
-    margin-left: 90px;
+    margin: 5px 50px 5px 50px;
     text-decoration: none;
     color: var(--darkpurp);
     border-bottom: 5px solid var(--darkpurp);
