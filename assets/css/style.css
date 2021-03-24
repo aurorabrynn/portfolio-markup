@@ -94,7 +94,16 @@ p {
     padding-left: 40px;
     margin-left: 380px;
     margin-right: 75px;
-    bottom: 210px;
+    border-left: 5px solid var(--darkblue);
+    position: absolute;
+    bottom: 310px;
+}
+
+#work {
+    margin-bottom: 1350px;
+}
+
+.workContent {
     border-left: 5px solid var(--darkblue);
 }
 
@@ -106,44 +115,66 @@ p {
     background-color: #EDEDF6;
     border: 5px solid var(--lightblue);
     position: absolute;
-    top: 700px;
-    left: 800px;
+    top: 690px;
+    left: 500px;
 }
 
 .second {
     background-image: url("../images/corinne-kutz-tMI2_-r5Nfo-unsplash.jpg");
     background-repeat: no-repeat;
     height: 300px;
-    width: 300px;
+    width: 400px;
     background-color: #EDEDF6;
     border: 5px solid var(--lightblue);
+    position: absolute;
+    top: 1400px;
+    left: 500px;
+
 }
 
 .third {
     background-image: url("../images/clemence-taillez-GHW0uAql5WQ-unsplash.jpg");
     background-repeat: no-repeat;
     height: 300px;
-    width: 300px;
+    width: 400px;
     background-color: #EDEDF6;
     border: 5px solid var(--lightblue);
+    position: absolute;
+    top: 1400px;
+    left: 1100px;
 }
 
 .fourth {
     background-image: url("../images/mitchell-luo-oLw9R4GxGug-unsplash.jpg");
     background-repeat: no-repeat;
     height: 300px;
-    width: 300px;
+    width: 400px;
     background-color: #EDEDF6;
     border: 5px solid var(--lightblue);
+    position: absolute;
+    top: 1720px;
+    left: 1100px;
 }
 
 .fifth {
     background-image: url("../images/phil-botha-6SiixipeG-c-unsplash.jpg");
     background-repeat: no-repeat;
     height: 300px;
-    width: 300px;
+    width: 400px;
     background-color: #EDEDF6;
     border: 5px solid var(--lightblue);
+    position: absolute;
+    top: 1720px;
+    left: 500px;
+}
+
+.first:hover,
+.second:hover,
+.third:hover,
+.fourth:hover,
+.fifth:hover {
+    filter: saturate(200%);
+    transition: 0.5s;
 }
 
 /*.workContent {
@@ -172,6 +203,7 @@ p {
     position: absolute;
     background-color: var(--lightblue);
     padding: 20px;
+    bottom: 30px;
 }
 
 .workSub h3 {
@@ -180,7 +212,7 @@ p {
     color: var(--grey);
 }
 
- /*.contactContent ul {
+ .contactContent ul {
     list-style: none;
     display: flex;
     position: relative;
@@ -189,7 +221,7 @@ p {
     border-left: 5px solid var(--darkblue);
     margin-left: 380px;
     margin-right: 75px;
-    bottom: 200px;
+    bottom: 120px;
 }
 
 .contactContent a {
@@ -200,4 +232,4 @@ p {
     text-decoration: none;
     color: var(--darkblue);
     border-bottom: 5px solid var(--darkblue);
-} */
+} 
