@@ -9,4 +9,4 @@ I learned how to properly format flexboxes, and how useful they can be when maki
 ![Screenshot](./assets/images/screenshot.png)
 
 ## Link
-<a href="https://aurorabrynn.github.io/code-refractor/">Github Link</a>
+<a href="https://aurorabrynn.github.io/portfolio-markup/">Github Link</a>
