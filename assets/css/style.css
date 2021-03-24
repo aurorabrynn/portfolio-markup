@@ -60,7 +60,7 @@ nav a {
 .subtitle h3 {
     position: absolute;
     top: 250px;
-    left: 200px;
+    left: 150px;
     background-color: var(--lightpurp);
     padding: 20px;
     color: var(--grey);
@@ -102,35 +102,38 @@ p {
 }
 
 #work {
-    margin-bottom: 1350px;
+    margin-bottom: 1150px;
 }
 
 .workContent {
     border-left: 5px solid var(--darkpurp);
+    height: 1300px;
+    position: absolute;
+    top: 700px;
+    left: 380px;
 }
 
 .first {
     background-image: url("../images/gradienta-gwE9vXSi7Xw-unsplash.jpg");
     background-repeat: no-repeat;
-    height: 667px;
+    height: 600px;
     width: 1000px;
     background-color: #EDEDF6;
     border: 5px solid var(--lightpurp);
     position: absolute;
-    top: 790px;
-    left: 500px;
+    left: 100px;
 }
 
 .second {
     background-image: url("../images/corinne-kutz-tMI2_-r5Nfo-unsplash.jpg");
     background-repeat: no-repeat;
     height: 300px;
-    width: 400px;
+    width: 450px;
     background-color: #EDEDF6;
     border: 5px solid var(--lightpurp);
     position: absolute;
-    top: 1500px;
-    left: 500px;
+    top: 650px;
+    left: 100px;
 
 }
 
@@ -138,36 +141,36 @@ p {
     background-image: url("../images/clemence-taillez-GHW0uAql5WQ-unsplash.jpg");
     background-repeat: no-repeat;
     height: 300px;
-    width: 400px;
+    width: 450px;
     background-color: #EDEDF6;
     border: 5px solid var(--lightpurp);
     position: absolute;
-    top: 1500px;
-    left: 1100px;
+    top: 650px;
+    left: 650px;
 }
 
 .fourth {
     background-image: url("../images/mitchell-luo-oLw9R4GxGug-unsplash.jpg");
     background-repeat: no-repeat;
     height: 300px;
-    width: 400px;
+    width: 450px;
     background-color: #EDEDF6;
     border: 5px solid var(--lightpurp);
     position: absolute;
-    top: 1820px;
-    left: 1100px;
+    top: 1000px;
+    left: 650px;
 }
 
 .fifth {
     background-image: url("../images/phil-botha-6SiixipeG-c-unsplash.jpg");
     background-repeat: no-repeat;
     height: 300px;
-    width: 400px;
+    width: 450px;
     background-color: #EDEDF6;
     border: 5px solid var(--lightpurp);
     position: absolute;
-    top: 1820px;
-    left: 500px;
+    top: 1000px;
+    left: 100px;
 }
 
 .first:hover,
@@ -178,28 +181,6 @@ p {
     filter: saturate(200%);
     transition: 0.5s;
 }
-
-/*.workContent {
-    background-image: url("../images/aron-visuals-weotZsrx3_Q-unsplash.jpg"), url("../images/clemence-taillez-GHW0uAql5WQ-unsplash.jpg"), url("../images/gradienta-gwE9vXSi7Xw-unsplash.jpg"), url("../images/jason-leung-7M38AnOGo_4-unsplash.jpg"), url("../images/lydia-kasianna-eL-xDSP8tgc-unsplash.jpg");
-    background-repeat: no-repeat, no-repeat;
-    height: 300px;
-    width: 300px;
-    background-color: #EDEDF6;
-    border: 5px solid var(--lightpurp);
-}
-
-.workContent {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.workContent img {
-    position: relative;
-    width: 300px;
-    bottom: 150px;
-    border: 5px solid var(--lightpurp)
-}*/
 
 .workSub {
     position: absolute;
