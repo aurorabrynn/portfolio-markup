@@ -1,8 +1,8 @@
 :root {
-    --lightblue: #92CCCD;
-    --darkblue: #445876;
+    --lightpurp: #CCCCFF;
+    --darkpurp: #20012e;
     --grey: #31343D;
-    --lightgrey: #6D7280;
+    --lightgrey: #6d6d80;
 }
 
 * {
@@ -25,7 +25,7 @@ nav {
 }
 
 nav h1 {
-    background-color: var(--lightblue);
+    background-color: var(--lightpurp);
     color: var(--grey);
     font-size: 300%;
     display: inline-block;
@@ -44,8 +44,8 @@ nav a {
     padding: 8px;
     margin: 5px;
     text-decoration: none;
-    color: var(--lightblue);
-    border-bottom: 5px solid var(--lightblue);
+    color: var(--lightpurp);
+    border-bottom: 5px solid var(--lightpurp);
 }
 
 .hero {
@@ -61,7 +61,7 @@ nav a {
     position: absolute;
     top: 250px;
     left: 200px;
-    background-color: var(--lightblue);
+    background-color: var(--lightpurp);
     padding: 20px;
     color: var(--grey);
     font-size: 200%;
@@ -74,14 +74,18 @@ nav a {
 }
 
 .heading h2 {
-    color: var(--darkblue);
+    color: var(--darkpurp);
     font-size: 300%;
     padding: 10px 20px 10px 10px;
     align-self: flex-start;
     margin-left: 100px;
     margin-top: 50px;
-    border-right: 5px solid var(--darkblue);
+    border-right: 5px solid var(--darkpurp);
     width: 15%;
+}
+
+#about {
+    padding-bottom: 100px;
 }
 
 p {
@@ -89,14 +93,12 @@ p {
 }
 
  .aboutContent {
-    display: flex;
-    position: relative;
     padding-left: 40px;
     margin-left: 380px;
     margin-right: 75px;
-    border-left: 5px solid var(--darkblue);
+    border-left: 5px solid var(--darkpurp);
     position: absolute;
-    bottom: 310px;
+    bottom: 290px;
 }
 
 #work {
@@ -104,7 +106,7 @@ p {
 }
 
 .workContent {
-    border-left: 5px solid var(--darkblue);
+    border-left: 5px solid var(--darkpurp);
 }
 
 .first {
@@ -113,9 +115,9 @@ p {
     height: 667px;
     width: 1000px;
     background-color: #EDEDF6;
-    border: 5px solid var(--lightblue);
+    border: 5px solid var(--lightpurp);
     position: absolute;
-    top: 690px;
+    top: 790px;
     left: 500px;
 }
 
@@ -125,9 +127,9 @@ p {
     height: 300px;
     width: 400px;
     background-color: #EDEDF6;
-    border: 5px solid var(--lightblue);
+    border: 5px solid var(--lightpurp);
     position: absolute;
-    top: 1400px;
+    top: 1500px;
     left: 500px;
 
 }
@@ -138,9 +140,9 @@ p {
     height: 300px;
     width: 400px;
     background-color: #EDEDF6;
-    border: 5px solid var(--lightblue);
+    border: 5px solid var(--lightpurp);
     position: absolute;
-    top: 1400px;
+    top: 1500px;
     left: 1100px;
 }
 
@@ -150,9 +152,9 @@ p {
     height: 300px;
     width: 400px;
     background-color: #EDEDF6;
-    border: 5px solid var(--lightblue);
+    border: 5px solid var(--lightpurp);
     position: absolute;
-    top: 1720px;
+    top: 1820px;
     left: 1100px;
 }
 
@@ -162,9 +164,9 @@ p {
     height: 300px;
     width: 400px;
     background-color: #EDEDF6;
-    border: 5px solid var(--lightblue);
+    border: 5px solid var(--lightpurp);
     position: absolute;
-    top: 1720px;
+    top: 1820px;
     left: 500px;
 }
 
@@ -183,7 +185,7 @@ p {
     height: 300px;
     width: 300px;
     background-color: #EDEDF6;
-    border: 5px solid var(--lightblue);
+    border: 5px solid var(--lightpurp);
 }
 
 .workContent {
@@ -196,12 +198,12 @@ p {
     position: relative;
     width: 300px;
     bottom: 150px;
-    border: 5px solid var(--lightblue)
+    border: 5px solid var(--lightpurp)
 }*/
 
 .workSub {
     position: absolute;
-    background-color: var(--lightblue);
+    background-color: var(--lightpurp);
     padding: 20px;
     bottom: 30px;
 }
@@ -218,7 +220,7 @@ p {
     position: relative;
     font-size: 125%;
     margin: 5px 75px 10px 0;
-    border-left: 5px solid var(--darkblue);
+    border-left: 5px solid var(--darkpurp);
     margin-left: 380px;
     margin-right: 75px;
     bottom: 120px;
@@ -230,6 +232,6 @@ p {
     margin: 5px;
     margin-left: 90px;
     text-decoration: none;
-    color: var(--darkblue);
-    border-bottom: 5px solid var(--darkblue);
+    color: var(--darkpurp);
+    border-bottom: 5px solid var(--darkpurp);
 } 
