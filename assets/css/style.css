@@ -115,67 +115,64 @@ p {
     border-left: 5px solid var(--darkpurp);
     padding-top: 10px;
     height: 140vh;
-    margin: 50px 75px 0 -20px;
+    margin: 5vh 4vw 0 -1.03vw;
 }
 
 .first {
     background-image: url("../images/gradienta-gwE9vXSi7Xw-unsplash.jpg");
     background-repeat: no-repeat;
-    height: 600px;
-    width: 1000px;
+    height: 64vh;
+    width: 52vw;
     background-color: #EDEDF6;
     border: 5px solid var(--lightpurp);
-    margin-left: 250px;
+    margin-left: 13vw;
 }
 
 #rowTwo, #rowThree {
-    margin-top: 30px;
+    margin-top: 3vh;
 }
 
 .second {
     background-image: url("../images/corinne-kutz-tMI2_-r5Nfo-unsplash.jpg");
     background-repeat: no-repeat;
-    height: 300px;
-    width: 450px;
+    height: 32vh;
+    width: 23vw;
     background-color: #EDEDF6;
     border: 5px solid var(--lightpurp);
-    margin-left: 265px;
-    margin-right: 100px;
+    margin-left: 13.8vw;
+    margin-right: 5.2vw;
 
 }
 
 .third {
     background-image: url("../images/clemence-taillez-GHW0uAql5WQ-unsplash.jpg");
     background-repeat: no-repeat;
-    height: 300px;
-    width: 450px;
+    height: 32vh;
+    width: 23vw;
     background-color: #EDEDF6;
     border: 5px solid var(--lightpurp);
-    align-self: flex-end;
-    margin-right: 260px;
+    margin-left: 0.8vw;
 }
 
 .fourth {
     background-image: url("../images/mitchell-luo-oLw9R4GxGug-unsplash.jpg");
     background-repeat: no-repeat;
-    height: 300px;
-    width: 450px;
+    height: 32vh;
+    width: 23vw;
     background-color: #EDEDF6;
     border: 5px solid var(--lightpurp);
-    align-self: flex-end;
-    margin-left: 265px;
-    margin-right: 100px;
+    margin-left: 13.8vw;
+    margin-right: 5.2vw;
 }
 
 .fifth {
     background-image: url("../images/phil-botha-6SiixipeG-c-unsplash.jpg");
     background-repeat: no-repeat;
-    height: 300px;
-    width: 450px;
+    height: 32vh;
+    width: 23vw;
     background-color: #EDEDF6;
     border: 5px solid var(--lightpurp);
-    align-self: flex-end;
-    margin-right: 260px;
+    margin-left: 0.8vw;
 }
 
 .first:hover,
@@ -189,7 +186,7 @@ p {
 
 .workSub, .workSubBig {
     background-color: var(--lightpurp);
-    padding: 20px;
+    padding: 1vw;
     display: inline-block;
     margin-top: 18vh;
     margin-left: -1vw
@@ -235,3 +232,86 @@ p {
     color: var(--darkpurp);
     border-bottom: 5px solid var(--darkpurp);
 } 
+
+/*992, 768*/
+@media screen and (max-width:992px) {
+    .subtitle h3 {
+        font-size: 150%;
+    } 
+
+    .heading h2 {
+        font-size: 250%;
+        margin: 40px 0 0 0;
+        padding-left: 0;
+    }
+
+    #profile {
+        width: 100%;
+    }
+
+    #work h2 {
+        padding-left: 0;
+    }
+
+    .workContent {
+        padding: 0;
+        margin: 5vh 7vw 0 -2.1vw;
+    }
+
+    .first {
+        background-image: url("../images/gradienta-gwE9vXSi7Xw-unsplash-small.jpg");
+        background-repeat: no-repeat;
+        margin-left: 12.4vw;
+    }
+    
+    .second {
+        background-image: url("../images/corinne-kutz-tMI2_-r5Nfo-unsplash-small.jpg");
+        background-repeat: no-repeat;
+        padding: 0;
+        margin-left: 13.8vw;
+        margin-right: 5.2vw;
+    
+    }
+    
+    .third {
+        background-image: url("../images/clemence-taillez-GHW0uAql5WQ-unsplash-small.jpg");
+        background-repeat: no-repeat;
+        margin-left: 0.9vw;
+        padding: 0;
+    }
+    
+    .fourth {
+        background-image: url("../images/mitchell-luo-oLw9R4GxGug-unsplash-small.jpg");
+        background-repeat: no-repeat;
+        margin-left: 13.8vw;
+        margin-right: 5.2vw;
+        padding: 0;
+    }
+    
+    .fifth {
+        background-image: url("../images/phil-botha-6SiixipeG-c-unsplash-small.jpg");
+        background-repeat: no-repeat;
+        margin-left: 0.9vw;
+        padding: 0;
+    }
+    
+    .workSub, .workSubBig {
+        padding: 1vh 1vw 0 1vw;
+        margin-top: 14vh;
+        margin-left: 0vw;
+    }
+    
+    .workSubBig {
+        margin-top: 38vh;
+        margin-left: 0;
+    }
+
+    .workSub h3, .workSubBig h3 {
+        font-size: 100%;
+    }
+
+    #contact h2 {
+        font-size: 200%;
+        padding-left: 0;
+    }
+}
