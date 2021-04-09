@@ -21,24 +21,19 @@ body {
 
 nav {
     background-color: var(--grey);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 nav h1 {
     background-color: var(--lightpurp);
     color: var(--grey);
     font-size: 300%;
-    display: inline-block;
     padding: 5px 5px 5px 50px;
     margin: 5px 0 10px 0;
 }
 nav ul {
     list-style: none;
-    display: flex;
     font-size: 125%;
-    margin: 5px 75px 10px 0;
+    margin-right: 75px;
 }
 
 nav a {
@@ -74,25 +69,12 @@ nav a {
 
 /*Main flexbox*/
 
-.flexbox {
-    display: flex;
-}
-
-/*About Me, Work, and Contact flexbox and details*/
-
-.flexHead {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    width: 20%;
-}
-
 .heading h2 {
     color: var(--darkpurp);
     font-size: 300%;
-    margin: 40px 0 20px 100px;
-    padding-right: 20px;
+    margin: 40px 0 20px 0;
     border-right: 5px solid var(--darkpurp);
+    padding-left: 120px;
 }
 
 /*Content flexbox*/
@@ -110,24 +92,30 @@ p {
     color: var(--lightgrey);;
 }
 
- .aboutContent {
-    margin: 40px 75px 30px 0;
-    padding-top: 10px;
-    padding-left: 40px;
+ .aboutContent p {
+    margin-top: 40px;
+    margin-left: -35px;
+    padding: 10px 0 10px 40px;
     border-left: 5px solid var(--darkpurp);
-    width: 95%;
+}
+
+#profile {
+    width: 100%;
+    margin-top: 40px;
+    border: 5px solid var(--lightpurp);
 }
 
 /*Work*/
 
+#work h2 {
+    padding-left: 140px;
+}
+
 .workContent {
-    display: flex;
-    flex-wrap: wrap;
     border-left: 5px solid var(--darkpurp);
     padding-top: 10px;
-    justify-content: space-between;
     height: 140vh;
-    margin-right: 75px;
+    margin: 50px 75px 0 -20px;
 }
 
 .first {
@@ -140,6 +128,10 @@ p {
     margin-left: 250px;
 }
 
+#rowTwo, #rowThree {
+    margin-top: 30px;
+}
+
 .second {
     background-image: url("../images/corinne-kutz-tMI2_-r5Nfo-unsplash.jpg");
     background-repeat: no-repeat;
@@ -147,9 +139,8 @@ p {
     width: 450px;
     background-color: #EDEDF6;
     border: 5px solid var(--lightpurp);
-    align-self: flex-end;
-    margin-left: 250px;
-    margin-bottom: 20px;
+    margin-left: 265px;
+    margin-right: 100px;
 
 }
 
@@ -161,8 +152,7 @@ p {
     background-color: #EDEDF6;
     border: 5px solid var(--lightpurp);
     align-self: flex-end;
-    margin-right: 250px;
-    margin-bottom: 20px;
+    margin-right: 260px;
 }
 
 .fourth {
@@ -173,7 +163,8 @@ p {
     background-color: #EDEDF6;
     border: 5px solid var(--lightpurp);
     align-self: flex-end;
-    margin-left: 250px;
+    margin-left: 265px;
+    margin-right: 100px;
 }
 
 .fifth {
@@ -184,7 +175,7 @@ p {
     background-color: #EDEDF6;
     border: 5px solid var(--lightpurp);
     align-self: flex-end;
-    margin-right: 250px;
+    margin-right: 260px;
 }
 
 .first:hover,
@@ -200,11 +191,13 @@ p {
     background-color: var(--lightpurp);
     padding: 20px;
     display: inline-block;
-    margin-top: 180px;
+    margin-top: 18vh;
+    margin-left: -1vw
 }
 
 .workSubBig {
-    margin-top: 450px;
+    margin-top: 46vh;
+    margin-left: 0;
 }
 
 .workSub h3, .workSubBig h3 {
@@ -215,18 +208,22 @@ p {
 
 /*Contact Me*/
 
-#contact {
-    margin-top: 140vh;
+#contactRow {
+    margin-top: 75px;
+}
+
+#contact h2 {
+    padding-left: 70px;
 }
 
  .contactContent ul {
     list-style: none;
-    display: flex;
     font-size: 125%;
     border-left: 5px solid var(--darkpurp);
-    padding-left: 150px;
     width: 95%;
     margin-bottom: 70px;
+    margin-left: -35px;
+    padding-bottom: 10px;
 
 }
 
@@ -237,4 +234,5 @@ p {
     text-decoration: none;
     color: var(--darkpurp);
     border-bottom: 5px solid var(--darkpurp);
+    text-align: center;
 } 

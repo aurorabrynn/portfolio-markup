@@ -5,18 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Aurora Duncan</title>
 </head>
 
 <body>
-    <nav>
-        <h1>Aurora Duncan</h1>
-        <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#work">Work</a></li>
-            <li><a href="#contact">Contact Me</a></li>
-            <li><a href="#">Resume</a></li>
+    <nav class="navbar navbar-expand-sm">
+        <h1 class="navbar-header">Aurora Duncan</h1>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+            <li class="nav-item"><a class="nav-link" href="#work">Work</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact Me</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Resume</a></li>
         </ul>
     </nav>
 
@@ -26,22 +27,12 @@
         </div>
     </div>
 
-    <div class=flexbox>
-        <div class="flexHead">
-            <div class="heading" id="about">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="heading col-2" id="about">
                 <h2>About Me</h2>
             </div>
-
-            <div class="heading" id="work">
-                <h2>Work</h2>
-            </div>
-
-            <div class="heading" id="contact">
-                <h2>Contact Me</h2>
-            </div>
-        </div>
-        <div class="content">
-            <div class="aboutContent">
+            <div class="aboutContent col">
                 <p>Hi! My name is Aurora Duncan and I have been coding for almost 6 months now! I graduated from Western
                     Washington University with a bachelor's degree in English. However, I relized I wanted to go in a
                     different direction in my life, so I attended the Nucamp Coding Bootcamp. I'm currently enrolled my
@@ -49,39 +40,65 @@
                     love for developing websites and now have proficiency in HTML, CSS and a little JavaScript!<br><br>
                     My hobbies include drinking coffee, playing video games, and hanging out with my kitten, Lilith!</p>
             </div>
-            <div class="workContent">
-                <div class="first">
-                    <div class="workSubBig">
-                        <h3>Surf Report</h3>
-                        <p>MERN Stack</p>
+            <div class="col-2">
+                <img src="./assets/images/profliepic.jpg" id="profile" alt="My profile picture">
+            </div>
+        </div>
+        <div class="row">
+            <div class="heading col-2" id="work">
+                <h2>Work</h2>
+            </div>
+            <div class="workContent col">
+                <a href="#">
+                    <div class="first">
+                        <div class="workSubBig">
+                            <h3>Surf Report</h3>
+                            <p>MERN Stack</p>
+                        </div>
                     </div>
-                </div>
-                <div class="second">
-                    <div class="workSub">
-                        <h3>LED Wall</h3>
-                        <p>Node/IoT</p>
-                    </div>
-                </div>
-                <div class="third">
-                    <div class="workSub">
-                        <h3>Calculator</h3>
-                        <p>React/JavaScript</p>
-                    </div>
-                </div>
-                <div class="fourth">
-                    <div class="workSub">
-                        <h3>Pastel Puzzles</h3>
-                        <p>MERN Stack</p>
-                    </div>
-                </div>
-                <div class="fifth">
-                    <div class="workSub">
-                        <h3>Run Buddy</h3>
-                        <p>HTML/CSS</p>
-                    </div>
+                </a>
+                <div class="row" id="rowTwo">
+                    <a href="#">
+                        <div class="second col">
+                            <div class="workSub">
+                                <h3>LED Wall</h3>
+                                <p>Node/IoT</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="third col">
+                            <div class="workSub">
+                                <h3>Calculator</h3>
+                                <p>React/JavaScript</p>
+                            </div>
+                        </div>
+                </div></a>
+                <div class="row" id="rowThree">
+                    <a href="#">
+                        <div class="fourth col">
+                            <div class="workSub">
+                                <h3>Pastel Puzzles</h3>
+                                <p>MERN Stack</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="fifth col">
+                            <div class="workSub">
+                                <h3>Run Buddy</h3>
+                                <p>HTML/CSS</p>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
-            <div class="contactContent">
+        </div>
+        <div class="row" id="contactRow">
+            <div class="heading col-2" id="contact">
+                <h2>Contact Me</h2>
+            </div>
+            <div class="contactContent col">
                 <ul>
                     <li><a href="#">(555) 555-5555</a></li>
                     <li><a href="mailto:aurorabrynn@gmail.com">aurorabrynn@gmail.com</a></li>
@@ -93,5 +110,11 @@
         </div>
     </div>
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js">
+</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
+</script>
 
 </html>
