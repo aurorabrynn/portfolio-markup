@@ -6,7 +6,7 @@ I made a mock portfolio page based on the markup given. Being able to copy from 
 I learned how to properly format flexboxes, and how useful they can be when making the page responsive to multiple viewpoints.
 
 ## Screenshots
-![Screenshot](./assets/images/screenshot.png)
+![Screenshot](./assets/images/screenshot(1).png)
 
 ## Link
 <a href="https://aurorabrynn.github.io/portfolio-markup/">Github Link</a>
