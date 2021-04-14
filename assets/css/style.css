@@ -10,7 +10,10 @@
     font-family: 'Trebuchet MS', sans-serif;
     margin: 0;
     padding: 0;
-    font-size: 18px;
+}
+
+[class*="col-"] {
+    width: 100%;
 }
 
 body {
@@ -21,19 +24,26 @@ body {
 
 nav {
     background-color: var(--grey);
+    overflow: hidden;
 }
 
 nav h1 {
     background-color: var(--lightpurp);
     color: var(--grey);
-    font-size: 300%;
+    font-size: 200%;
+    /*font-size: 300%;
     padding: 0.26vw 0.26vw 0.26vw 2.6vw;
-    margin: 0.26vw 0 0.52vw 0;
+    margin: 0.26vw 0 0.52vw 0;*/
+}
+
+#divLinks {
+    display: none;
 }
 nav ul {
     list-style: none;
-    font-size: 125%;
+    /*font-size: 125%;
     margin-right: 3.9vw;
+    display: block;*/
 }
 
 nav a {
@@ -45,41 +55,49 @@ nav a {
     border-bottom: 5px solid var(--lightpurp);
 }
 
+nav a.icon {
+    display: block;
+}
+
 /*Main image*/
 
 .hero {
-    background-image: url("../images/flat-lay-cup-black-coffee-260nw-1283360350.jpg");
+    display: none;
+    /*background-image: url("../images/flat-lay-cup-black-coffee-260nw-1283360350.jpg");
     background-color: #EDEDF6;
     height: 20vw;
     background-position: center;
     background-size: cover;
     width: 100%;
-    position: relative;
+    position: relative;*/
 }
 
 .subtitle h3 {
-    background-color: var(--lightpurp);
+    display: none;
+    /*background-color: var(--lightpurp);
     padding: 1vw;
     color: var(--grey);
     font-size: 200%;
     font-weight: bold;
     display: inline-block;
-    margin: 10vw
+    margin: 10vw*/
 } 
 
 /* Main Content */
 
 .heading h2 {
     color: var(--darkpurp);
-    font-size: 300%;
-    margin: 2vw 0 1vw 0;
+    font-size: 200%;
+    text-align: center;
+    border-bottom: 5px solid var(--darkpurp);
+    /*margin: 2vw 0 1vw 0;
     border-right: 5px solid var(--darkpurp);
-    padding-left: 6.25vw;
+    padding-left: 6.25vw;*/
 }
 
-.content {
+/*.content {
     margin-left: -0.3vw;
-}
+}*/
 
 /*About me*/
 
@@ -88,95 +106,99 @@ p {
 }
 
  .aboutContent p {
-    margin: 2vw 3.9vw 0 2vw;
-    padding: 0.52vw 0 0.52vw 2vw;
+     margin-top: 2vw;
+   /* margin: 2vw 3.9vw 0 2vw;
+    padding: 0.52vw 0 0.52vw 2vw;*/
 
 }
 
-#pic {
+/*#pic {
     border-left: 5px solid var(--darkpurp);
     padding: 0.52vw 0 0.52vw 2vw;
     margin-left: -1.03vw;
     margin-top: 2vw;
-}
+}*/
 
 #profile {
-    width: 150%;
+    display: block;
+    width: 50%;
     border: 5px solid var(--lightpurp);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*Work*/
 
-#work h2 {
+/*#work h2 {
     padding-left: 6.46vw;
-}
+}*/
 
-.workContent {
+/*.workContent {
     border-left: 5px solid var(--darkpurp);
     height: 76vw;
     margin: 5vw 4vw 0 -1.03vw;
-}
+}*/
 
 .first {
     background-image: url("../images/pawpair-cropped.png");
     background-repeat: no-repeat;
-    height: 34vw;
-    width: 52vw;
     background-color: #EDEDF6;
     border: 5px solid var(--lightpurp);
+    /*height: 34vw;
+    width: 52vw;
     margin-left: 13vw;
-    position: relative;
+    position: relative;*/
 }
 
-#rowTwo, #rowThree {
+/*#rowTwo, #rowThree {
     margin-top: 3vw;
-}
+}*/
 
 .second {
     background-image: url("../images/corinne-kutz-tMI2_-r5Nfo-unsplash.jpg");
     background-repeat: no-repeat;
-    height: 16vw;
-    width: 23vw;
     background-color: #EDEDF6;
     border: 5px solid var(--lightpurp);
+    /*height: 16vw;
+    width: 23vw;
     margin-left: 13.8vw;
     margin-right: 5.2vw;
-    position: relative;
+    position: relative;*/
 
 }
 
 .third {
     background-image: url("../images/clemence-taillez-GHW0uAql5WQ-unsplash.jpg");
     background-repeat: no-repeat;
-    height: 16vw;
-    width: 23vw;
     background-color: #EDEDF6;
     border: 5px solid var(--lightpurp);
+    /*height: 16vw;
+    width: 23vw;
     margin-left: 0.8vw;
-    position: relative;
+    position: relative;*/
 }
 
 .fourth {
     background-image: url("../images/mitchell-luo-oLw9R4GxGug-unsplash.jpg");
     background-repeat: no-repeat;
-    height: 16vw;
-    width: 23vw;
-    background-color: #EDEDF6;
     border: 5px solid var(--lightpurp);
+    background-color: #EDEDF6;
+    /*height: 16vw;
+    width: 23vw;
     margin-left: 13.8vw;
     margin-right: 5.2vw;
-    position: relative;
+    position: relative;*/
 }
 
 .fifth {
     background-image: url("../images/phil-botha-6SiixipeG-c-unsplash.jpg");
     background-repeat: no-repeat;
-    height: 16vw;
-    width: 23vw;
     background-color: #EDEDF6;
     border: 5px solid var(--lightpurp);
+    /*height: 16vw;
+    width: 23vw;
     margin-left: 0.8vw;
-    position: relative;
+    position: relative;*/
 }
 
 .first:hover,
@@ -190,20 +212,20 @@ p {
 
 .workSub, .workSubBig {
     background-color: var(--lightpurp);
-    padding: 1vw;
     display: inline-block;
+    /*padding: 1vw;
     margin-top: 40%;
     margin-left: -1vw;
     height: 42%;
-    position: absolute;
+    position: absolute;*/
 }
 
-.workSubBig {
+/*.workSubBig {
     margin-top: 40%;
     margin-left: 0;
     height: 20%;
     position: absolute;
-}
+}*/
 
 .workSub h3, .workSubBig h3 {
     font-size: 150%;
@@ -224,11 +246,11 @@ p {
  .contactContent ul {
     list-style: none;
     font-size: 125%;
-    border-left: 5px solid var(--darkpurp);
+    /*border-left: 5px solid var(--darkpurp);
     margin-bottom: 3.64vw;
     margin-left: -1.81vw;
     padding-bottom: 0.5vw;
-    padding-left: 7.8vw;
+    padding-left: 7.8vw;*/
 
 }
 
@@ -240,6 +262,41 @@ p {
     color: var(--darkpurp);
     border-bottom: 5px solid var(--darkpurp);
 } 
+
+/*@media screen and (max-width:1440px) {
+    .heading h2 {
+        padding-left: 4vw;
+    }
+
+    .aboutContent p {
+        font-size: 99%;
+    }
+
+    #pic {
+        margin-left: -1.4vw;
+    }
+
+    #work h2 {
+        padding-left: 5vw;
+    }
+
+    .workContent {
+        margin-left: -1.4vw;
+    }
+
+    .workSub {
+        margin-left: -1.4vw;
+    }
+
+    #contact h2 {
+        padding-left: 0.5vw;
+    }
+
+    .contactContent ul {
+        margin-left: -2.4vw;
+    
+    }
+}
 
 @media screen and (max-width:992px) {
     .subtitle h3 {
@@ -404,3 +461,22 @@ p {
     
     }
 }
+
+@media screen and (max-width:600px) {
+    nav ul {
+        display: none;
+    }
+
+    nav a.icon {
+        background: var(--darkgray);
+        display: block;
+    }
+    
+    .hero {
+       display: none;
+    }
+    
+    .subtitle h3 {
+        display: none;
+    } 
+}*/

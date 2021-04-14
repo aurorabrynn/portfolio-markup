@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Aurora Duncan</title>
 </head>
@@ -13,12 +14,17 @@
 <body>
     <nav class="navbar navbar-expand-sm">
         <h1 class="navbar-header">Aurora Duncan</h1>
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
-            <li class="nav-item"><a class="nav-link" href="#work">Work</a></li>
-            <li class="nav-item"><a class="nav-link" href="#contact">Contact Me</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Resume</a></li>
-        </ul>
+        <div class="ml-auto" id="divLinks">
+            <ul class="navbar-nav" id="navLinks">
+                <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                <li class="nav-item"><a class="nav-link" href="#work">Work</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact Me</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Resume</a></li>
+            </ul>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
     </nav>
 
     <div class="hero">
@@ -29,13 +35,13 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div class="heading col-2" id="about">
+            <div class="heading col-lg-2" id="about">
                 <h2>About Me</h2>
             </div>
             <div id="pic" class="col">
                 <img src="./assets/images/profliepic.jpg" id="profile" alt="My profile picture">
             </div>
-            <div class="aboutContent col-9">
+            <div class="aboutContent col-lg-9">
                 <p>Hi! My name is Aurora Duncan and I have been coding for a little over 6 months now! I graduated from
                     Western
                     Washington University with a bachelor's degree in English. However, I relized I wanted to go in a
@@ -46,7 +52,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="heading col-2" id="work">
+            <div class="heading col-lg-2" id="work">
                 <h2>Work</h2>
             </div>
             <div class="workContent col">
@@ -96,7 +102,7 @@
             </div>
         </div>
         <div class="row" id="contactRow">
-            <div class="heading col-2" id="contact">
+            <div class="heading col-lg-2" id="contact">
                 <h2>Contact Me</h2>
             </div>
             <div class="contactContent col">
@@ -116,5 +122,6 @@
 </script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
 </script>
+<script src="./assets/js/script.js"></script>
 
 </html>
