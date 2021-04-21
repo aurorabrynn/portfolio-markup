@@ -6,25 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Aurora Duncan</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm">
-        <h1 class="navbar-header">Aurora Duncan</h1>
-        <div class="ml-auto" id="divLinks">
-            <ul class="navbar-nav" id="navLinks">
-                <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
-                <li class="nav-item"><a class="nav-link" href="#work">Work</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact">Contact Me</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Resume</a></li>
-            </ul>
+    <nav class="navbar navbar-expand-sm bg-dark">
+        <div class="container-fluid">
+            <h1 class="navbar-header">Aurora Duncan</h1>
+            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#work">Work</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Resume</a></li>
+                </ul>
+            </div>
         </div>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
     </nav>
 
     <div class="hero">
@@ -35,13 +38,13 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div class="heading col-lg-2" id="about">
+            <div class="heading col-sm-2" id="about">
                 <h2>About Me</h2>
             </div>
-            <div id="pic" class="col">
+            <div id="pic" class="col-sm-1">
                 <img src="./assets/images/profliepic.jpg" id="profile" alt="My profile picture">
             </div>
-            <div class="aboutContent col-lg-9">
+            <div class="aboutContent col-sm-9">
                 <p>Hi! My name is Aurora Duncan and I have been coding for a little over 6 months now! I graduated from
                     Western
                     Washington University with a bachelor's degree in English. However, I relized I wanted to go in a
@@ -52,15 +55,15 @@
             </div>
         </div>
         <div class="row">
-            <div class="heading col-lg-2" id="work">
+            <div class="heading col-sm-2" id="work">
                 <h2>Work</h2>
             </div>
-            <div class="workContent col">
+            <div class="workContent col-sm-9">
                 <a href="https://amandanguyenn.github.io/group-project-1/" target="_blank">
                     <div class="first">
                         <div class="workSubBig">
                             <h3>Paw Pair</h3>
-                            <p>JavaScript/Web APIs</p>
+                            <p>Node.js</p>
                         </div>
                     </div>
                 </a>
@@ -68,7 +71,7 @@
                     <a href="#">
                         <div class="second col">
                             <div class="workSub">
-                                <h3>LED Wall</h3>
+                                <h3>README Generator</h3>
                                 <p>Node/IoT</p>
                             </div>
                         </div>
@@ -80,7 +83,8 @@
                                 <p>React/JavaScript</p>
                             </div>
                         </div>
-                </div></a>
+                    </a>
+                </div>
                 <div class="row" id="rowThree">
                     <a href="#">
                         <div class="fourth col">
@@ -102,12 +106,12 @@
             </div>
         </div>
         <div class="row" id="contactRow">
-            <div class="heading col-lg-2" id="contact">
+            <div class="heading col-sm-2" id="contact">
                 <h2>Contact Me</h2>
             </div>
-            <div class="contactContent col">
+            <div class="contactContent col-sm-10">
                 <ul class="list-inline">
-                    <li class="list-inline-item"><a href="#">(555) 555-5555</a></li>
+                    <li class="list-inline-item"><a href="#">(541) 653-5065</a></li>
                     <li class="list-inline-item"><a href="mailto:aurorabrynn@gmail.com">aurorabrynn@gmail.com</a></li>
                     <li class="list-inline-item"><a href="https://github.com/aurorabrynn">GitHub</a></li>
                     <li class="list-inline-item"><a href="www.linkedin.com/in/aurora-duncan-585570205">Linkedin</a></li>
@@ -122,6 +126,5 @@
 </script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
 </script>
-<script src="./assets/js/script.js"></script>
 
 </html>
