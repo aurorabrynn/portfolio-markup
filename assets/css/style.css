@@ -109,96 +109,33 @@ p {
 
 .workContent {
     border-left: 5px solid var(--darkpurp);
-    height: 76vw;
-    margin: 5vw 4vw 0 -1.03vw;
-}
-
-.first {
-    background-image: url("../images/pawpair-cropped.png");
-    background-repeat: no-repeat;
-    height: 34vw;
-    width: 52vw;
-    background-color: var(--offwhite);;
-    border: 5px solid var(--lightpurp);
-    margin-left: 13vw;
-    position: relative;
+    margin: 2vw 4vw 0 -1.03vw;
+    padding-bottom: 2vw;
 }
 
 #rowTwo, #rowThree {
     margin-top: 3vw;
+    margin-left: 1vw;
 }
 
-.second {
-    background-image: url("../images/readme-gen.png");
-    background-repeat: no-repeat;
+.card {
     height: 16vw;
     width: 23vw;
     background-color: var(--offwhite);;
     border: 5px solid var(--lightpurp);
-    margin-left: 13.8vw;
-    margin-right: 5.2vw; 
-    position: relative;
-
-}
-
-.third {
-    background-image: url("../images/clemence-taillez-GHW0uAql5WQ-unsplash.jpg");
-    background-repeat: no-repeat;
-    height: 16vw;
-    width: 23vw; 
-    background-color: var(--offwhite);;
-    border: 5px solid var(--lightpurp);
-    margin-left: 0.8vw;
     position: relative;
 }
 
-.fourth {
-    background-image: url("../images/mitchell-luo-oLw9R4GxGug-unsplash.jpg");
-    background-repeat: no-repeat;
-    height: 16vw;
-    width: 23vw;
-    background-color: var(--offwhite);;
-    border: 5px solid var(--lightpurp);
-    margin-left: 13.8vw;
-    margin-right: 5.2vw;
-    position: relative;
-}
-
-.fifth {
-    background-image: url("../images/phil-botha-6SiixipeG-c-unsplash.jpg");
-    background-repeat: no-repeat;
-    height: 16vw;
-    width: 23vw;
-    background-color: var(--offwhite);;
-    border: 5px solid var(--lightpurp);
-    margin-left: 0.8vw;
-    position: relative;
-}
-
-.first:hover,
-.second:hover,
-.third:hover,
-.fourth:hover,
-.fifth:hover {
+.card:hover {
     filter: saturate(200%);
     transition: 0.5s;
 }
 
-.workSub, .workSubBig {
+.card-body {
     background-color: var(--lightpurp);
-    padding: 0.5vw;
-    display: inline-block;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-}
+} 
 
-.workSubBig {
-    position: absolute;
-    bottom: 20%;
-}
-
-.workSub h3, .workSubBig h3 {
+.card-body h3 {
     font-size: 150%;
     font-weight: bold;
     color: var(--grey);
