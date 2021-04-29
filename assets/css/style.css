@@ -122,8 +122,13 @@ p {
     height: 16vw;
     width: 23vw;
     background-color: var(--offwhite);;
-    border: 5px solid var(--lightpurp);
     position: relative;
+}
+
+.card img {
+    height: 10vw;
+    width: 22.9vw;
+    object-fit: cover;
 }
 
 .card:hover {
@@ -133,12 +138,19 @@ p {
 
 .card-body {
     background-color: var(--lightpurp);
+    position: relative;
 } 
 
 .card-body h3 {
     font-size: 150%;
     font-weight: bold;
     color: var(--grey);
+}
+
+.btn {
+    position: absolute;
+    right: 2vw;
+    bottom: 1.5vw;
 }
 
 /*Contact Me*/
@@ -205,15 +217,11 @@ p {
     }
 
     .first {
-        background-image: url("../images/pawpair-cropped-small.png");
-        background-repeat: no-repeat;
         margin-left: 12.4vw;
         width: 52vw;
     }
     
     .second {
-        background-image: url("../images/corinne-kutz-tMI2_-r5Nfo-unsplash-small.jpg");
-        background-repeat: no-repeat;
         padding: 0;
         margin-left: 13.8vw;
         margin-right: 5.2vw;
@@ -221,23 +229,17 @@ p {
     }
     
     .third {
-        background-image: url("../images/clemence-taillez-GHW0uAql5WQ-unsplash-small.jpg");
-        background-repeat: no-repeat;
         margin-left: 0.9vw;
         padding: 0;
     }
     
     .fourth {
-        background-image: url("../images/mitchell-luo-oLw9R4GxGug-unsplash-small.jpg");
-        background-repeat: no-repeat;
         margin-left: 13.8vw;
         margin-right: 5.2vw;
         padding: 0;
     }
     
     .fifth {
-        background-image: url("../images/phil-botha-6SiixipeG-c-unsplash-small.jpg");
-        background-repeat: no-repeat;
         margin-left: 0.9vw;
         padding: 0;
     }
@@ -289,32 +291,6 @@ p {
 
     .workContent {
         border: 0;
-    }
-
-    .first {
-        background-image: url("../images/pawpair-cropped-xsmall.png");
-        background-repeat: no-repeat;
-    }
-    
-    .second {
-        background-image: url("../images/corinne-kutz-tMI2_-r5Nfo-unsplash-xsmall.jpg");
-        background-repeat: no-repeat;
-    
-    }
-    
-    .third {
-        background-image: url("../images/clemence-taillez-GHW0uAql5WQ-unsplash-xsmall.jpg");
-        background-repeat: no-repeat;
-    }
-    
-    .fourth {
-        background-image: url("../images/mitchell-luo-oLw9R4GxGug-unsplash-xsmall.jpg");
-        background-repeat: no-repeat;
-    }
-    
-    .fifth {
-        background-image: url("../images/phil-botha-6SiixipeG-c-unsplash-xsmall.jpg");
-        background-repeat: no-repeat;
     }
 
     .workSub h3, .workSubBig h3 {
