@@ -231,9 +231,6 @@ p {
     }
     
     .btn {
-        position: absolute;
-        right: 2vw;
-        bottom: 1.5vw;
         font-size: 60%;
     }
 
@@ -266,20 +263,16 @@ p {
         border-right: 0;
     }
 
+    .col {
+        padding-right: 0;
+    }
+
     #pic {
         border: 0;
     }
 
     .workContent {
         border: 0;
-    }
-
-    .workSub h3, .workSubBig h3 {
-        font-size: 75%;
-    }
-
-    .workSub p, .workSubBig p {
-        font-size: 65%;
     }
 
     #contact h2 {
@@ -289,5 +282,63 @@ p {
     .contactContent ul {
         border: 0;
     
+    }
+}
+
+@media screen and (max-width:375px) {
+    .hero {
+        display: none;
+    }
+
+    .heading h2 {
+        font-size: 300%;
+        text-align: center;
+        border-bottom: 5px solid var(--darkpurp);
+    }
+
+    #pic {
+        margin: 2vw;
+    }
+
+    #profile {
+        width: 100%;
+    }
+
+    #rowTwo, #rowThree {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .card {
+        width: 100%;
+        height: 85%;
+        margin-bottom: 10vw;
+    }
+
+    .card img {
+        width: 100%;
+        height: 20vw;
+        object-fit: cover;
+    }
+
+    h3.card-text {
+        font-size: 125%;
+    }
+
+    p.card-text {
+        display: none;
+    }
+
+    .btn {
+        font-size: 100%;
+    }
+
+    .contactContent ul { 
+        text-align: center;
+    }
+
+    .contactContent li {
+        padding-left: 9.7vw; 
+        padding-right: 9.7vw;
     }
 }
